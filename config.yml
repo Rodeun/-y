@@ -1,0 +1,10 @@
+# 모루로 작업한 아이템에 누적되는 '이전 작업 횟수' 패널티를 새로 만들지 않음
+# (결과물의 repair cost를 항상 0으로 초기화)
+reset-result-penalty: true
+
+# 이미 패널티가 쌓인 아이템도 그 패널티만큼 비용을 깎아서 계산
+# (기존 아이템도 처음 수리하는 것처럼 비용이 나옴)
+ignore-existing-penalty: true
+
+# "너무 비쌈!"(40레벨 이상) 제한 제거
+remove-too-expensive: true

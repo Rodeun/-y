@@ -1,0 +1,14 @@
+name: AnvilCostFix
+version: 1.0.0
+main: com.example.anvilcostfix.AnvilCostFix
+api-version: "1.21"
+folia-supported: true
+description: Removes the anvil prior-work penalty and the "Too Expensive!" limit.
+commands:
+  anvilcostfix:
+    description: Reload the config
+    usage: /anvilcostfix reload
+    permission: anvilcostfix.admin
+permissions:
+  anvilcostfix.admin:
+    default: op
